@@ -1,0 +1,2 @@
+# VHDL Race Condition Bug
+This repository demonstrates a race condition bug in a simple VHDL counter and its solution. The `buggy_counter.vhd` file contains the buggy code, which exhibits unpredictable behavior due to a lack of synchronization between the internal counter and the output signal. The solution is presented in `fixed_counter.vhd`, using a more robust approach to ensure correct and reliable counter operation.
